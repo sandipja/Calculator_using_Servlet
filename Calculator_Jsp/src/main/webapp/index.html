@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Calculator</title>
+
+<style type="text/css">
+.main-block {
+	max-width: 340px;
+	min-height: 300px;
+	padding: 10px 0;
+	margin: auto;
+	border-radius: 5px;
+	border: solid 1px #ccc;
+	box-shadow: 1px 2px 5px rgba(0, 0, 0, .31);
+	background-color: #ac00e6
+}
+
+button:hover {
+	background: green;
+}
+</style>
+</head>
+<center>
+	<body>
+		<div class="main-block">
+			<h1>Calculator</h1>
+			<form action="Calculator" method="get" name="frm">
+				<input type="text" name="num1" placeholder="Enter First Number"><br>
+				<br> <input type="text" name="num2"
+					placeholder="Enter Second Number"><br>
+				<br> <select name="operator">
+
+					<option>Select Opration</option>
+					<option value="Addition">Addition +</option>
+					<option value="Subtraction">Subtraction -</option>
+					<option value="Multiplication">Multiplication *</option>
+					<option value="Divsion">Divsion /</option>
+				</select> <br>
+				<br>
+				<button type="submit" value="submit">Submit</button>
+			</form>
+
+		</div>
+	</body>
+</html>
